@@ -15,9 +15,6 @@
 .selected-btn {
   color: #2563eb;
   font-size: 26px;
-  border-bottom: 3px;
-  border-style: solid;
-  border-top: none;
-  border-left: none;
-  border-right: none;
+  border-bottom: 3px solid #2563eb;
+  padding-bottom: 8px;
 }
