@@ -1,0 +1,82 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  min-height: 100vh;
+  min-width: 100vh;
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-heading {
+  font-family: 'Bree Serif';
+  font-size: 35px;
+  color: #1e293b;
+}
+
+.input-container {
+  width: 30vw;
+  border-width: 4px;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: #7b8794;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding-left: 12px;
+}
+
+@media screen and (max-width: 767px) {
+  .input-container {
+    width: 40vw;
+  }
+}
+
+.input {
+  width: 27vw;
+  padding: 9px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 16px;
+}
+
+.search-icon {
+  height: 25px;
+  padding-right: 8px;
+}
+
+.tabs-container {
+  list-style-type: none;
+  padding-left: 0px;
+  width: 25vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 42px;
+}
+
+.app-list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
